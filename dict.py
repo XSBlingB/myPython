@@ -25,3 +25,5 @@ s2 = set([1,2,3,'java','python','c'])
 print(s1 & s2)
 print(s1 | s2)
  #set和dict的key都要采用不可变对象，list是可变对象，str是不可变对象
+
+#tuple虽然是不变对象，但试试把(1, 2, 3)和(1, [2, 3])放入dict或set中，并解释结果
